@@ -1,5 +1,15 @@
 # Linux Kernel 调试
 
+
+# 调试驱动模块
+
+```
+cat /proc/modules
+
+
+add-symbol-file path/to/mymodule.ko 0xfffffffa00000000    
+```
+
 ## KGDB 
 
 内核配置参数
