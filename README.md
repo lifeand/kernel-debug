@@ -64,6 +64,7 @@ gdb 不要使用pwndbg 插件，否则无法正常使用
 
 ```
 -s -S 
+or -gdb tcp::1234 -S
 ```
 gdbinit
 ```
